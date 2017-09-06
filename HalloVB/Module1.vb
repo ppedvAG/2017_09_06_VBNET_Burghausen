@@ -27,6 +27,12 @@ Module Module1
         b = 13 \ 5      'in VB -> 2
         b = 14 Mod 5    '4 -> Rest der ganzahligen Division
 
+        b = b + 4
+        b += 4
+        b -= 4
+        b *= 4
+        b \= 4
+
         ' Vergleichsoperatoren
         bedingung = 6 > 7
         bedingung = 6 >= 7
