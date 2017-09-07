@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vererbung.Fahrzeug">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgABAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAwAAA=</HashCode>
+      <FileName>Fahrzeug.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung.LKW">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LKW.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung.PKW">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>PKW.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung.Cabrio">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Cabrio.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
