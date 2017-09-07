@@ -63,9 +63,9 @@ Module Module1
 
 #End Region
 
-        For i = 0 To 100 Step 5
-            Console.WriteLine(i)
-        Next
+        For i = 0 To 100 Step 5                 'for(int i = 0; i < 100; i++)
+            Console.WriteLine(i)                '{.... 
+        Next                                    '}
 
         For i = 100 To 0 Step -1
             Console.WriteLine(i)

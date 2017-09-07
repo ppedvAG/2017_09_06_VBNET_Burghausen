@@ -52,9 +52,11 @@ Module Module1
         bedingung = 5 < 7 Xor 8 > 6      'in C# ^
 
         Dim zahl As Integer = CInt("78")
+        zahl = CType("45", Integer)
         zahl = Integer.Parse("4")
+        zahl = Convert.ToInt32("4")
 
-        Console.WriteLine()
+        Console.WriteLine(zahl.ToString())
 
         Console.ReadKey()
     End Sub
