@@ -1,4 +1,6 @@
-﻿Module Module1
+﻿Option Strict On
+
+Module Module1
 
     Sub Main()
 
@@ -11,7 +13,7 @@
         Dim p = New PKW(3)
         p.Geschwindigkeit = 80
         p.Farbe = "Gelb"
-        p.Beschleunigen(40)
+        p.Beschleunigen(dV:=40)
         p.Bremsen(20)
         'p.Sitzplätze = 5
 
@@ -30,6 +32,27 @@
         'c.Sitzplätze = 5
         c.Dachart = "Softtop"
 
+
+        Dim lack = New Lackiererei()
+
+        lack.Lackieren(f)
+        lack.Lackieren(p)   'PKW erbt von Fahrzeug -> PKW ist ein Fahrzeug
+        lack.Lackieren(l)   'LKW auch
+        lack.Lackieren(c)   'Cabrio erbto von PKW -> PKW erbt von Fahrzeug
+
+        EineMethodeDieEinFahrzeugBraucht(f)
+        EineMethodeDieEinFahrzeugBraucht(p)
+        EineMethodeDieEinFahrzeugBraucht(l)
+        EineMethodeDieEinFahrzeugBraucht(c)
+
+        Console.WriteLine(f.Farbe)
+        Console.WriteLine(p)
+        Console.ReadLine()
+    End Sub
+
+
+    Public Sub EineMethodeDieEinFahrzeugBraucht(x As Fahrzeug)
+        x.Beschleunigen(100)
     End Sub
 
 End Module

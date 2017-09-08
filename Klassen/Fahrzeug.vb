@@ -1,8 +1,8 @@
 ﻿Public Class Fahrzeug
 
-    Public Sub New()
+    'Public Sub New()
 
-    End Sub
+    'End Sub
     Public Sub New(baujahr As Integer)
         Me.Baujahr = baujahr
     End Sub
@@ -105,7 +105,6 @@
     Public Sub Beschleunigen(faktor As Double)
         Geschwindigkeit = CInt(Geschwindigkeit * faktor)
     End Sub
-
     Public Sub Beschleunigen(dv As Integer, text As String)
 
     End Sub

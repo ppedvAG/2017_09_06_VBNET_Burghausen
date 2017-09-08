@@ -2,8 +2,8 @@
 
     Sub Main()
 
-        ' Objekte von Strukturen sind Werttypen
-        ' Objekte von Klassen sind Referenztpyen
+        ' Objekte von Strukturen sind Werttypen         ValueTypes
+        ' Objekte von Klassen sind Referenztpyen        ReferenceTypes
         ' Einzige Ausnahme: String
 
         Console.WriteLine($"{vbNewLine}{vbNewLine}{vbNewLine}------------ Werttypen")

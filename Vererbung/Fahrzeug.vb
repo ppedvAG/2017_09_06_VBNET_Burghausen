@@ -23,12 +23,7 @@ Public Class Fahrzeug
             Return _farbe
         End Get
         Set(value As String)
-            Select Case (value)
-                Case "Rot", "Blau", "Gelb", "Grün"
-                    _farbe = value
-                Case Else
-                    _farbe = "Ungültige Farbe"
-            End Select
+            _farbe = value
         End Set
     End Property
 

@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="Cabrio.vb" />
     <Compile Include="Fahrzeug.vb" />
+    <Compile Include="Lackiererei.vb" />
     <Compile Include="LKW.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
