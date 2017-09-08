@@ -27,6 +27,16 @@ Public Class Fahrzeug
         End Set
     End Property
 
+    Private _baujahr As Integer
+    Protected Property Baujahr As Integer
+        Get
+            Return _baujahr
+        End Get
+        Set(ByVal value As Integer)
+            _baujahr = value
+        End Set
+    End Property
+
     Public Sub Beschleunigen(dV As Integer)
         Geschwindigkeit += dV
     End Sub
